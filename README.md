@@ -24,7 +24,8 @@ You can also specify specific IP addresses range to scan, for example:
 
 
 ## More Command-Line Options
-````/IPAddressFrom <IP Address>
+````
+/IPAddressFrom <IP Address>
 /IPAddressTo <IP Address>	Specifies the IP adderess range to scan.````
 /UseIPAddressesRange <0 | 1>	Specifies whether to scan with specific IP addresses range (Specified in /IPAddressFrom and /IPAddressTo command-line options)
 0 = No, 1 = Yes
@@ -50,7 +51,5 @@ WakeMeOnLan.exe /cfg "%AppData%\WakeMeOnLan.cfg"
 /sort <column>	This command-line option can be used with other save options for sorting by the desired column. If you don't specify this option, the list is sorted according to the last sort that you made from the user interface. The <column> parameter can specify the column index (0 for the first column, 1 for the second column, and so on) or the name of the column, like "Computer Name" and "Workgroup". You can specify the '~' prefix character (e.g: "~MAC Address") if you want to sort in descending order. You can put multiple /sort in the command-line if you want to sort by multiple columns.
 Examples:
 WakeMeOnLan.exe /shtml "c:\temp\WakeMeOnLan.html" /sort 2 /sort ~1
-```
 WakeMeOnLan.exe /shtml "c:\temp\WakeMeOnLan.html" /sort "Workgroup" /sort "Computer Name"
-
 /nosort	When you specify this command-line option, the list will be saved without any sorting.

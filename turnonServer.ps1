@@ -8,5 +8,5 @@ Write-Output "Wake up server...."
 C:\Users\William\Downloads\Compressed\wakemeonlan-x64\WakeMeOnLan.exe /wakeup 192.168.0.119
 
 # Window 10, Windows incompatible with command MSG
-#msg DESTKOP-WORK /SERVER:SVRTARSKO "The server ON"
+#msg DESTKOP-WORK /SERVER:SERVER_NAME "The server ON"
 
